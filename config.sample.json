@@ -1,0 +1,7 @@
+{
+    "holdings": [
+        {"ticker": "VOO", "shares": 10, "cost_basis": 380.00},
+        {"ticker": "VT", "shares": 15, "cost_basis": 95.00},
+        {"ticker": "AAPL", "shares": 10, "cost_basis": 170.00}
+    ]
+}
