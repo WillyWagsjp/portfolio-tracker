@@ -5,7 +5,7 @@ import yfinance as yf
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONFIG_PATH = os.path.join(BASE_DIR, "config.json")
-SAMPLE_CONFIG_PATH = os.path.join(BASE_DIR, "ocnfig.json")
+SAMPLE_CONFIG_PATH = os.path.join(BASE_DIR, "config.json")
 DATA_PATH = os.path.join(BASE_DIR, "data", "data.json")
 
 
