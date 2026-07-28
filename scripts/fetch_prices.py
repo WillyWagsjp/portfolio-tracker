@@ -5,13 +5,13 @@ import yfinance as yf
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONFIG_PATH = os.path.join(BASE_DIR, "config.json")
-SAMPLE_CONFIG_PATH = os.path.join(BASE_DIR, "config.json")
+SAMPLE_CONFIG_PATH = os.path.join(BASE_DIR, "config.sample.json")
 DATA_PATH = os.path.join(BASE_DIR, "data", "data.json")
 
 
 def load_config():
     path = CONFIG_PATH if os.path.exists(CONFIG_PATH) else SAMPLE_CONFIG_PATH
-    with open(path,"r") as f:
+    with open(path, "r") as f:
         return json.load(f)
 
 def fetch_current_prices(tickers):
