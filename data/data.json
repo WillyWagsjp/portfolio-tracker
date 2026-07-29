@@ -107,6 +107,42 @@
           "gain_pct": 100.05
         }
       ]
+    },
+    {
+      "timestamp": "2026-07-29T23:00:46.114173+00:00",
+      "total_value": 15724.65,
+      "total_cost": 8825.0,
+      "total_gain": 6899.65,
+      "total_gain_pct": 78.18,
+      "holdings": [
+        {
+          "ticker": "VOO",
+          "shares": 15,
+          "current_price": 670.63,
+          "cost_basis": 380.0,
+          "value": 10059.45,
+          "gain": 4359.45,
+          "gain_pct": 76.48
+        },
+        {
+          "ticker": "VT",
+          "shares": 15,
+          "current_price": 152.22,
+          "cost_basis": 95.0,
+          "value": 2283.3,
+          "gain": 858.3,
+          "gain_pct": 60.23
+        },
+        {
+          "ticker": "AAPL",
+          "shares": 10,
+          "current_price": 338.19,
+          "cost_basis": 170.0,
+          "value": 3381.9,
+          "gain": 1681.9,
+          "gain_pct": 98.94
+        }
+      ]
     }
   ]
 }
